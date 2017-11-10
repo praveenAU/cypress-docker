@@ -1,0 +1,23 @@
+{
+  "name": "cypress-demo",
+  "version": "1.0.0",
+  "description": "google-cypress-demo",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^1.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "cypress-test": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/praveenprasannan/cypress-demo.git"
+  },
+  "author": "Praveen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/praveenprasannan/cypress-demo/issues"
+  },
+  "homepage": "https://github.com/praveenprasannan/cypress-demo#readme"
+}
