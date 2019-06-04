@@ -30,7 +30,9 @@ Cypress now provides a Docker image with Cypress pre-installed. So with a one si
 docker build -t cypress-docker .
  ```
 
-This will pull the image `cypress/included:3.2.0` and will execute the tests.
+This will pull the image `cypress/included:3.2.0` and will execute the tests. Once successful, your terminal will look like below.
+
+![alt text](https://user-images.githubusercontent.com/12592205/58779838-5c75b380-861a-11e9-8f0a-44258e2481be.png)
 
 ## More info on Cypress
 
