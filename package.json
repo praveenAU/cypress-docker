@@ -1,23 +1,14 @@
 {
-  "name": "cypress-demo",
+  "name": "cypress-docker",
   "version": "1.0.0",
-  "description": "google-cypress-demo",
   "main": "index.js",
-  "dependencies": {
-    "cypress": "^1.0.3"
-  },
-  "devDependencies": {},
+  "repository": "https://github.com/praveenprasannan/cypress-docker.git",
+  "author": "Praveen>",
+  "license": "MIT",
   "scripts": {
-    "cypress-test": "cypress open"
+    "test": "cypress open"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/praveenprasannan/cypress-demo.git"
-  },
-  "author": "Praveen",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/praveenprasannan/cypress-demo/issues"
-  },
-  "homepage": "https://github.com/praveenprasannan/cypress-demo#readme"
+  "devDependencies": {
+    "cypress": "^3.2.0"
+  }
 }
