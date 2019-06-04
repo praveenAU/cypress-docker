@@ -2,22 +2,38 @@
 
 Cypress Demo Repo
 
-### Cypress Installation
+## Cypress Installation
 
 1. Install [Node.js](https://nodejs.org/en/)
 
-2. Install all dependencies
-```
-$ npm install
-```
-### Test Execution
+2. Install all dependencies by entering
 
-3. To open Cypress test runner
+```sh
+npm install
 ```
-$ npm run cypress-test
+
+## Test Execution
+
+To open Cypress test runner, type:
+
+```sh
+npm test
 ```
+
 After a moment, the Cypress Test Runner will launch. Click on the JS file to run tests.
 
-#### More info on Cypress
-* https://cypress.io/
-* https://example.cypress.io/
+## Docker Support
+
+Cypress now provides a Docker image with Cypress pre-installed. So with a one single command it's possible to run the tests. To run tests, type:
+
+```sh
+docker build -t cypress-docker .
+ ```
+
+This will pull the image `cypress/included:3.2.0` and will execute the tests.
+
+## More info on Cypress
+
+* <https://cypress.io/>
+* <https://example.cypress.io/>
+* <https://www.cypress.io/blog/2019/05/02/run-cypress-with-a-single-docker-command/>
